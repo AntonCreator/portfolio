@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ei=edge" />
+    <title>portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-responsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-responsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutMe"><p class = "text-yellow">About me</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#study"><p class = "text-yellow">My study</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-yellow" href="#projects"><p class = "text-yellow">Projects</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts"><p class = "text-yellow">Contacts</p></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class = "container-fluid aboutMe" id = "aboutMe">
+      <h2 class = "display-4 text-center about-title ">My name is Anton </h2>
+      <h4 class = "text-center text-yellow"><em>I am web developer</em></h4>
+      <hr>
+      <h2 class = "display-5 text-center darkText stack ">My technological stack</h2>
+      <hr >
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+        
+          <div class="swiper-slide"><img src = "./images/html.jpg" alt = "slide1"></div>
+          <div class="swiper-slide"><img src = "./images/js.jpg" alt = "slide2"></div>
+          <div class="swiper-slide"><img src = "./images/b4.png" alt = "slide3"></div>
+          <div class="swiper-slide"><img src = "./images/react.jpg" alt = "slide4"></div>
+          <div class="swiper-slide"><img src = "./images/Redux.png" alt = "slide5"></div>
+         
+        </div>
+      </div>
+    </div>
+    <div id = "study" class = "study container-fluid">
+      <div class = "row ">
+        <div class = "col-md-12 ">
+          <h2 class = "display-5 text-center text-dark">My study</h2>
+          <figure class="d-flex flex-column align-items-center" >
+            <img class = "roadmap img-fluid" src = "images/roadmap.png">
+            <figcaption>
+              <p>This is my react developer roadmap. I minified it a little, but I didn't miss the most important things. I followed it step by step. The main resource for my training was <em>freecodecamp.org</em> - these are wonderful free courses with a practical focus. I also took knowledge from books and useful videos on YouTube, in addition, I want to highlight the site <em>monsterlessons.ru</em>, which contains many useful, and most importantly, practically directed lessons</p>
+              <p class = "cursive-text"><em>I have learned a lot, but there is still a lot to learn...</em></p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div id = "projects" class = "projects container-fluid">
+      <h2 class = "display-5 text-center text-yellow projects-title" >My projects</h2>
+      <div class = "row">
+        <div class = "col-md-12">
+          <div class = "container">
+            <div class = "card">        
+                <div class = "face face1">         
+                    <div class = "content">
+                        <img class="card-img" src = "images/simpletasty.jpg" alt = "simpletasty">
+                    </div>
+                </div>
+                <div class = "face face2">
+                    <div class = "content">
+                      <h4>Simple tasty</h4><hr>
+                        <p>Bootstrap is very nice grafical framewok. It allows to create a beatyful and responsive web-pages like this. </p>
+                        <div class = "linkcard"><a href = "https://github.com/AntonCreator/simpletasty" class = "btn btn-success">gitHub</a></div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>    
+      </div>
+      <div class = "row">
+        <div class = "col-md-12 col-lg-6">
+          <div class = "container">
+            <div class = "card">
+                <div class = "face face1">
+                    <div class = "content">
+                      <img class="card-img" src = "images/calc.jpg" alt = "jsCalculator">    
+                    </div>
+                </div>
+                <div class = "face face2">
+                    <div class = "content">
+                      <h4>JS calculator</h4><hr>
+                        <p>This is simple Javascript calculator. I heard the opinion that every newbest developer must create simple JS calculator as that... </p>
+                        <div class = "linkcard"><a href = "https://github.com/AntonCreator/simple-calculator-js"class = "btn btn-success">gitHub</a></div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class = "col-md-12 col-lg-6">
+          <div class = "container">
+            <div class = "card">
+                <div class = "face face1">
+                    <div class = "content">
+                      <img class="card-img" src = "images/miner.jpg" alt = "miner">     
+                    </div>
+                </div>
+                <div class = "face face2">
+                    <div class = "content">
+                      <h4>JS miner</h4><hr>
+                        <p>Simple miner game written by Javascript. It is possible to select the number of rows and columns of the field, and you can also select the number of bombs</p>
+                        <div class = "linkcard"><a href = "https://github.com/AntonCreator/simple-miner" class = "btn btn-success">gitHub</a></div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>     
+      </div>
+      <div class = "row">
+        <div class = "col-md-12 col-lg-6 col-xl-4">
+          <div class = "container">
+            <div class = "card">
+                <div class = "face face1">
+                    <div class = "content">
+                      <img class="card-img" src = "images/todo.jpg" alt = "todo">    
+                    </div>
+                </div>
+                <div class = "face face2">
+                    <div class = "content">
+                      <h4>React ToDo</h4><hr>
+                        <p>Interesting application allows you to delete and add various tasks, as well as mark them as done. Also, for those who cannot think of things to do, there is a special function for the lazy :) </p>
+                        <div class = "linkcard"><a href = "https://github.com/AntonCreator/todo" class = "btn btn-success">gitHub</a></div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class = "col-md-12 col-lg-6 col-xl-4">
+          <div class = "container">
+            <div class = "card">
+                <div class = "face face1">
+                    <div class = "content">
+                      <img class="card-img" src = "images/tic-tac.jpg" alt = "tictac">    
+                    </div>
+                </div>
+                <div class = "face face2">
+                    <div class = "content">
+                      <h4>React simple Tic-Tac</h4><hr>
+                        <p>This is my first React application. Simple Tic-Tac game with nice animation of crosses and zeros...that is all.</p>
+                        <div class = "linkcard"><a href="https://github.com/AntonCreator/tic-tac" class = "btn btn-success">gitHub</a></div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class = "col-md-12 col-lg-6 col-xl-4">
+          <div class = "container">
+            <div class = "card">
+                <div class = "face face1">
+                    <div class = "content">
+                      <img class="card-img" src = "images/weather.jpg" alt = "weather">      
+                    </div>
+                </div>
+                <div class = "face face2">
+                    <div class = "content">
+                      <h4>React weather application</h4><hr>
+                        <p>Nice and simple weather application which get you a weather in in the selected city. This was a good practice for me to get a information from API. Application has a nice hover effect.  </p>
+                        <div class = "linkcard"><a href = "https://github.com/AntonCreator/weatherApp" class = "btn btn-success">gitHub</a></div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>       
+      </div>
+      <div class = "row">
+        <div class = "col-md-12">
+          <div class = "container">
+            <div class = "card">        
+                <div class = "face face1">         
+                    <div class = "content">
+                        <img class="card-img" src = "images/pizzaStore.jpg" alt = "pizzaStore">
+                    </div>
+                </div>
+                <div class = "face face2">
+                    <div class = "content">
+                      <h4>Redux Pizza</h4>
+                        <p>This is the biggest of my projects. Story has functionaly cart, pizza`s pages, search, category sorting and pagination.I create this story so that without major changes in the code, you can scale it or add certain functionality </p>
+                        <div class = "linkcard"><a href = "https://github.com/AntonCreator/pizzaStore/tree/master" class = "btn btn-success">gitHub</a></div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>    
+      </div>
+    </div>
+    <div id="contacts" class = "contacts">
+      <h2 class = "display-5 text-center text-yellow projects-title">Let's work together...</h2>
+      <h4 class = "text-center text-yellow"><em>push button bellow</em></h4>
+      <div class = "btn-block">
+      <a class = "btn btn-lg btn-primary" target="_blank" id="profile-link" href="https://vk.com/alashkov">VK</a>
+      <a class = "btn btn-lg btn-outline-light" target="_blank" id="profile-link" href="https://github.com/AntonCreator">GitHub</a>
+      </div>
+    </div>
+  
+
+
+  <script src = "script.js"></script> 
+  </body>
+</html>
